@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Reset_PasswordActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_reset_password_successfully"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sucessful_reset_password" />
+
+        <TextView
+            android:id="@+id/textView_reset_password_successfully"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/successfully"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_8sdp"
+            />
+        <TextView
+            android:id="@+id/textView_reset_password_successfully_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textColor="@color/Echo_Blue"
+            android:textSize="@dimen/_9ssp"
+            android:fontFamily="@font/almarai_regular_ar"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_16sdp"
+            />
+
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/english_shape"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:text="@string/login_btn"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

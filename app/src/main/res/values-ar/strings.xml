@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wait_minute">انتظر لحظات ...</string>
+    <string name="app_name">سلامتك</string>
+    <string name="English">english</string>
+    <string name="Arabic">عربي</string>
+    <string name="Phone_Number">رقم الهاتف</string>
+    <string name="Phone_number_hint">9751237</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="Password_hint">.........</string>
+    <string name="Remember_me">تذكرني</string>
+    <string name="Forget_Password">نسيت كلمة المرور ؟</string>
+    <string name="login_btn">تسجيل دخول</string>
+    <string name="Sing_up_link_btn">إنشاء حساب</string>
+    <string name="dont_have_an_account_already">ليس لديك حساب بالفعل؟</string>
+    <string name="Login_layout_name">تسجيل دخول</string>
+    <string name="singup_layout_name">إنشاء حساب</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="full_name_hint">نور علي</string>
+    <string name="otp_send_popup">سيتم إرسال رمز التحقق إلى \n الرقم الذي تم إدخاله للتحقق من \n من أنك مالك الرقم</string>
+    <string name="forget_password_layout_name">نسيت كلمة المرور ؟</string>
+    <string name="enter_your_phone_number">أدخل رقم هاتفك لاسترداد كلمة المرور الخاصة بك </string>
+    <string name="otp_send_btn">أرسل رمز التحقق</string>
+    <string name="not_send_otp">ألم تحصل على الرمز السري؟ </string>
+    <string name="resend_otp_link">إعادة الإرسال</string>
+    <string name="enter_otp">أدخل رمز التحقق</string>
+    <string name="enter_the_code_sent_phone">أدخل الرمز المرسل إلى هاتفك</string>
+    <string name="verify_btn">تحقق</string>
+    <string name="not_receive">ألم يصلك رمز؟</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="successfully">إعادة تعيين كلمة المرور بنجاح</string>
+    <string name="reset"> تسجيل الدخول إلى حسابك  &amp; إعادة تعيين كلمة المرور الخاصة بك إلى الاسترداد</string>
+    <string name="new_check">فحص جديد</string>
+    <string name="previous_examinations">الفحوصات السابقة</string>
+    <string name="hello">مرحبا !</string>
+    <string name="Noor">نور علي</string>
+    <string name="newborn_information">معلومات المولود</string>
+    <string name="baby_name">الاسم الكامل للمولود</string>
+    <string name="baby_name_hint">اسم الكامل </string>
+    <string name="gender">الجنس</string>
+    <string name="female">أنثى</string>
+    <string name="male">ذكر</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="birth_date_hint">تاريخ الميلاد</string>
+    <string name="birth_time">وقت الميلاد</string>
+    <string name="birth_time_hint"> وقت الميلاد </string>
+    <string name="genstational_age">أسبوع الولادة</string>
+    <string name="genstational_age_hint">أسبوع الولادة</string>
+    <string name="any">يوجد</string>
+    <string name="risk_factor">عوامل خطر ؟</string>
+    <string name="yes">نعم</string>
+    <string name="No">لا</string>
+    <string name="risk_factor_popup">عوامل خطر</string>
+    <string name="risk_factor1">لم يتلقى الطفل الرضاعة الطبيعية الكافية</string>
+    <string name="risk_factor2">فصيلة دم الأم -O </string>
+    <string name="risk_factor3">كان لديه شقيق مصاب بالصفار الحاد أو تم نقل دم له.</string>
+    <string name="notedescription">إذا كان هناك على الأقل شرط واحد متوافق مع حالة مولودك فضع نعم</string>
+    <string name="note">تنبيه : </string>
+    <string name="submit">إرسال</string>
+    <string name="forehead"> صورة الجبين</string>
+    <string name="next">التالي</string>
+    <string name="Sternum">صورة الصدر</string>
+    <string name="view_result">عرض النتائج</string>
+    <string name="result_bili">نتيجة البيليروبين</string>
+    <string name="measuring_unit">Mmol/L</string>
+    <string name="High_risk">مخاطرة عالية</string>
+    <string name="low_risk">خطر قليل</string>
+    <string name="medium_risk">خطر متوسط</string>
+    <string name="Recommendations">التوصيات</string>
+    <string name="previous_examinations_btn">الفحوصات السابقة</string>
+    <string name="account">الحساب</string>
+    <string name="Personal_info">المعلومات الشخصية</string>
+    <string name="Privacy">الخصوصية</string>
+    <string name="help">مركز المساعدة</string>
+    <string name="Language">اللغة</string>
+    <string name="log_out_btn">تسجيل خروج</string>
+    <string name="name">علي سامي ناصر</string>
+    <string name="sample_date">تاريخ العينة :</string>
+    <string name="bili_rate">معدل البيليروبين: </string>
+    <string name="edit">تعديل</string>
+    <string name="current_pass">تأكيد كلمة المرور</string>
+    <string name="New_pass">كلمة المرور الجديدة</string>
+    <string name="english_lan">English(United States)</string>
+    <string name="arabic_lan">العربية(فلسطين)</string>
+    <string name="exit">خروج</string>
+    <string name="cancel">إلغاء</string>
+    <string name="baby_name_empty">أدخل اسم المولود من فضلك</string>
+    <string name="baby_name_error">يجب أن يحتوي الاسم على حروف فقط</string>
+    <string name="birth_date_empty">أدخل تاريخ ولادة المولود من فضلك</string>
+    <string name="return_btn">إعادة</string>
+    <string name="choose">اختر الأسبوع</string>
+    <string name="option1">الأسبوع 35</string>
+    <string name="option2">الأسبوع 36</string>
+    <string name="option3">الأسبوع 37</string>
+    <string name="option4">الأسبوع 38</string>
+    <string name="option5">الأسبوع 39</string>
+    <string name="option6">الأسبوع 40+</string>
+    <string name="tv_didnot_get_secret_code">ألم تحصل على الرمز السري؟</string>
+    <string name="empty">تأكد من إدخال جميع البيانات</string>
+    <string name="empty_phone">تأكد من إدخال رقم الهاتف</string>
+    <string name="noIntrnet">تأكد من اتصال الإنترنت</string>
+    <string name="validatename">يجب أن يحتوي الاسم على حروف أبجدية فقط</string>
+    <string name="validatephone">أدخل فقط ٧ أرقام</string>
+    <string name="validatepassword">يجب أن تحتوي كلمة المرور على الأقل 8 أحرف انجليزية وأرقام</string>
+    <string name="emptylang">تأكد من اختيار أحد اللغتين</string>
+    <string name="invalidOtp">رمز التحقق الذي تم إدخاله غير صالح</string>
+    <string name="alreadyhaveaccount">لديك حساب بالفعل ، قم بتسجيل الدخول مباشرة</string>
+    <string name="successfullysignup">تم إنشاء الحساب بنجاح</string>
+    <string name="have_account_already">لديك حساب بالفعل؟</string>
+    <string name="login_txt">تسجيل دخول</string>
+    <string name="successfullylogin">تم تسجيل الدخول بنجاح</string>
+    <string name="wrongpassword">كلمة المرور خاطئة</string>
+    <string name="account_login">ليس لديك حساب، قم بإنشاء حساب لك</string>
+    <string name="modified_successfully">تم تعديل البيانات بنجاح</string>
+    <string name="empty_password">تأكد من ادخال كلمة المرور</string>
+    <string name="change_password">تمت إعادة تعيين كلمة المرور بنجاح</string>
+    <string name="confirm_password">تم استخدام كلمة المرور مسبقاً قم بتغييرها</string>
+    <string name="notequal_password">كلمات المرور غير متطابقتين</string>
+    <string name="logoutToast">تم تسجيل الخروج من الحساب</string>
+    <string name="notPassExist">رقم الهاتف غير موجود تأكد من الرقم أو قم بإنشاء حساب</string>
+    <string name="PhoneExist">الرقم يستخدمه شخص اخر لا يمكنك استخدامه.</string>
+    <string name="required">هذا الحقل مطلوب *</string>
+    <string name="resendon">انتظر بعضاً من الوقت لإرسال رمز التحقق لك</string>
+    <string name="fail">فشلت عملية انشاء الحساب</string>
+    <string name="faillogin">فشلت عملية تسجيل الدخول</string>
+    <string name="fail_changePass">فشلت عملية تغيير كلمة المرور</string>
+    <string name="alreadyphone">رقم الهاتف مستخدم قم باستخدام رقم اخر</string>
+    <string name="wait">انتظر لبضع من الثواني</string>
+    <string name="tryagain">حدثت مشكلة اثناء ارسال الكود ، اعد المحاولة مرة اخرى</string>
+    <string name="firstTermPhone">قم باختيار بداية رقم الهاتف</string>
+    <string name="helpQusetion1">كيف سيستفيد الأهالي من التطبيق ؟</string>
+    <string name="helpAnswer1">التطبيق مصمم ومبرمج ليتم التنبؤ بقيمة البيليروبين المسؤول عن مرض الصفار عند المواليد من عمر يومين ل 14 يوم و إعطاء توصيات للاهالي لمساعدتهم في تقليل نسبة الصفار عند المواليد فهو يعتبر محاكاة للجهاز المستحدم في المستشفى .</string>
+    <string name="helpQuestion2">هل تعتبر نتائج الفحص في التطبيق دقيقة؟</string>
+    <string name="helpAnswer2">دقة التطبيق ممتازة ويمكن الاعتماد عليه</string>
+    <string name="helpQuestion3">هل يعتبر التطبيق مجاني؟</string>
+    <string name="helpAnswer3">نعم التطبيق مجاني ولا يحتاج الى دفع اي مال للحصول على خدمة الفحص او تتبع حالة المولود .</string>
+    <string name="helpQuestion4">ما هي اهم الخدمات الموجودة في التطبيق؟</string>
+    <string name="helpAnswer4">اهم الخدمات تكمن في الحصول على نتيجة مستوى البيليروبين تقديرياً لدى المولود و أيضاً وجود سجل طبي للمولود موجود فيه مواعيد الفحوصات السابقة التي قام بها المولود ونسبة الصفار و ايضأً التوصيات الواجب القيام بها من قبل الأهالي.</string>
+    <string name="helpQuestion5">خدمة الفحص متوفرة في جميع الأوقات؟</string>
+    <string name="helpAnswer5">نعم حيث يستطيع الأهالي استخدام التطبيق في 24 ساعة مدار 7 أيام لفحص اطفالهم و الاطمئنان على مستوى الصفار لديهم.</string>
+    <string name="helpQuestion6">هل تشتمل خدمة التطبيق أي تحديثات ومزايا إضافية أو اصلاح للمشاكل التقنية؟</string>
+    <string name="helpAnswer6">نعم، سيتم تطوير التطبيق بمميزات وخصائص جديدة بشكل دوري، وسيتم تحديث تطبيقك تلقائياً عند إضافة أي خاصية أو ميزة جديدة.</string>
+    <string name="helpQuestion7">هل يدعم التطبيق جميع أنظمة التشغيل؟</string>
+    <string name="helpAnswer7">التطبيق يدعم فقط نظام أندرويد ويتم تحميله من متجر Google play</string>
+    <string name="helpQuestion8">هل هناك شروط معينة للقيام بالفحص؟</string>
+    <string name="helpAnswer8">نعم يجب ان يكون عمر المولود من يومين الى ١٤ يوم </string>
+    <string name="riskType">نوع الخطر: </string>
+    <string name="close">إغلاق</string>
+    <string name="invalid">التاريخ غير صالح! حاول ثانية</string>
+    <string name="invaliage">عمر المولود لا يدعمه التطبيق في الفحص. يجب ان يكون عمره من يومين ل ١٤ يوم</string>
+    <string name="fail_change">فشل تغيير البيانات</string>
+    <string name="change_data">تم إعادة تعيين البيانات بنجاح</string>
+    <string name="phoneExist">رقم موبايل خاص بمستخدم اخر لا يمكنك استخدامه</string>
+    <string name="success_save_baby">تمت اضافة معلومات المولود بنجاح</string>
+    <string name="fail_save_baby">لم تتم عملية اضافة معلومات المولود بنجاح حاول مرة أخرى</string>
+    <string name="bilirate">وجدنا أن نتيجة البيليروبين تساوي</string>
+    <string name="recommendationHigh1">استشر أخصائي رعاية صحية</string>
+    <string name="recommendationHigh2">زيادة عدد مرات الرضاعة الطبيعية</string>
+    <string name="recommendationHigh3">اتبع العلاج بالضوء الموصى به</string>
+    <string name="recommendationMeduim1">الإرضاع المتكرر</string>
+    <string name="recommendationMeduim2">مواعيد المتابعة المنتظمة مع أخصائي الرعاية الصحية</string>
+    <string name="recommendationMeduim3">مراقبة تغذية الطفل ومخرجاته</string>
+    <string name="recommendationLow1">متابعة الفحوصات الدورية</string>
+    <string name="recommendationLow2">مراقبة تغذية الطفل ومخرجاته</string>
+    <string name="recommendationLow3">الرضاعة الطبيعية المنتظمة أو الرضاعة الصناعية</string>
+    <string name="successstoreHE">تم تخزين نتائج الفحص بنجاح</string>
+    <string name="failstoreHE">فشلت عملية تخزين بيانات الفحص</string>
+    <string name="noface">لا تظهر منطقة الجبهة</string>
+    <string name="face">تظهر منطقة الجبهة</string>
+    <string name="notallow">لم يتم السماح باستخدام الكاميرا</string>
+    <string name="capture">تم التقاط صورة الجبهة</string>
+    <string name="distance">التقط الصورة الآن</string>
+    <string name="come">اقترب أكثر</string>
+    <string name="back">ابتعد قليلاً</string>
+    <string name="takephoto">قم بالتقاط صورة لمنطقة الجبهة</string>
+    <string name="takephotoset">قم بالتقاط صورة لمنطقة الصدر</string>
+    <string name="newborninformation">تأكد من أن جميع معلومات مولودك التي ستقوم بإدخالها صحيحة ودقيقة لأن ذلك يؤثر على دقة النتيجة</string>
+    <string name="historyExamination">في هذه الواجهة سيتم عرض جميع اسماء اطفالك الذين قمت بفحص لهم نسبة البيليروبين</string>
+    <string name="contact_with_doctor">في هذه الواجهة سيتم عرض جميع الأطباء الذين يمكنك التواصل معهم للإجابة على استفساراتك</string>
+    <string name="historyExaminationData">في هذه الواجهة سيتم عرض جميع الفحوصات التي قمت بها لطفلك</string>
+    <string name="contact">تواصل مع طبيب</string>
+    <string name="doctor_name">اسم الطبيب : </string>
+    <string name="doctor_Specialization">التخصص : </string>
+    <string name="doctor_JobTitle">المسمى الوظيفي : </string>
+    <string name="doctor_Communication_method">طريقة التواصل : </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

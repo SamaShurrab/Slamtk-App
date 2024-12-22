@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PrivacyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_arrow"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/arrow__right" />
+            <TextView
+                android:id="@+id/textView_personal_info"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/Privacy"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16ssp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/New_pass"
+            android:textColor="@color/black"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_16sdp"/>
+
+        <EditText
+            android:id="@+id/editText_new_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/password"
+            android:drawablePadding="@dimen/_8sdp"
+            android:gravity="center|start"
+            android:textColorHint="@color/Echo_Blue"
+            android:textColor="@color/black"
+            android:longClickable="false"
+            android:paddingStart="@dimen/_10sdp"
+            android:background="@drawable/edit_text_box"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:drawableStart="@drawable/eye_slash_password"
+            android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/textView_current_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_pass"
+            android:textColor="@color/black"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_16sdp"/>
+
+        <EditText
+            android:id="@+id/editText_cuurent_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/password"
+            android:drawablePadding="@dimen/_8sdp"
+            android:gravity="center|start"
+            android:textColorHint="@color/Echo_Blue"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_10sdp"
+            android:longClickable="false"
+            android:background="@drawable/edit_text_box"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:drawableStart="@drawable/eye_slash_password"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btn_style"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/edit"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

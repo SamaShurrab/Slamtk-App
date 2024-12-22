@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:background="@drawable/risk_factor_shape"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:gravity="left"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:srcCompat="@drawable/close_black" />
+
+    <TextView
+        android:id="@+id/textView_riskfactor"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semi_bold_en"
+        android:text="@string/risk_factor_popup"/>
+
+    <TextView
+            android:id="@+id/textView_riskfactor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_semi_bold_en"
+            android:gravity="start"
+            android:text="@string/risk_factor1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/textView_riskfactor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/poppins_semi_bold_en"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:gravity="start"
+            android:text="@string/risk_factor2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+
+        <TextView
+            android:id="@+id/textView_riskfactor3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_semi_bold_en"
+            android:gravity="start"
+            android:text="@string/risk_factor3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/warning"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="2"
+            android:fontFamily="@font/poppins_semi_bold_en"
+            android:gravity="center"
+            android:text="@string/note"
+            android:textColor="@color/red"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView_note"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:text="@string/notedescription"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:fontFamily="@font/poppins_semi_bold_en"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"/>
+    </LinearLayout>
+</LinearLayout>

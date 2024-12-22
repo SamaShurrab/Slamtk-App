@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginEnd="@dimen/_13sdp"
+        android:orientation="vertical"
+        android:background="@drawable/doctor_data"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_regular_ar"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:text="@string/doctor_name"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/doctor_Specialization"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_Specialization"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:fontFamily="@font/almarai_regular_ar"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/doctor_JobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doctor_JobTitle"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:fontFamily="@font/almarai_regular_ar"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:layout_marginBottom="@dimen/_13sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/doctor_Communication_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doctor_Communication_method"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_13ssp"
+                android:fontFamily="@font/almarai_regular_ar"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:srcCompat="@drawable/whatsapp" />
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:srcCompat="@drawable/phone" />
+
+            <ImageView
+                android:id="@+id/message"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_9sdp"
+                app:srcCompat="@drawable/message" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

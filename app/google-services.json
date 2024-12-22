@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "735161791125",
+    "project_id": "slamtk-af64f",
+    "storage_bucket": "slamtk-af64f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735161791125:android:baa173d036453aa43b619c",
+        "android_client_info": {
+          "package_name": "com.ucst.slamtk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735161791125-a60ljfee90gjqus07mjggime3v5apk0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ucst.slamtk",
+            "certificate_hash": "379d3fa5805f58bd06c9d047c4167fbc5f206872"
+          }
+        },
+        {
+          "client_id": "735161791125-4hkpjk768jpa8ur8kq16ei59ek1s6o9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClY7TYnD97kwe_5eZ0ZbJMF5yf_kvr6-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735161791125-4hkpjk768jpa8ur8kq16ei59ek1s6o9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

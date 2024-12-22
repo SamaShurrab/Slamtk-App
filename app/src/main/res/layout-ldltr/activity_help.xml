@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HelpActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_arrow"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/arrow_left" />
+                <TextView
+                    android:id="@+id/textView_Privacy"
+                    android:layout_width="0dp"
+                    android:layout_weight="9"
+                    android:layout_height="match_parent"
+                    android:text="@string/help"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_medium_en"
+                    android:textSize="@dimen/_13ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestion1Tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:gravity="center"
+                    android:text="@string/helpQusetion1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer1"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:gravity="center"
+                    android:text="@string/helpQuestion2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer2"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:gravity="center"
+                    android:text="@string/helpQuestion3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer3"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:text="@string/helpQuestion4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/helpAnswerTv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:fontFamily="@font/poppins_regular_en"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/helpAnswer4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:gravity="center"
+                    android:text="@string/helpQuestion5"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer5"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:text="@string/helpQuestion6"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer6"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/helpQuestion7"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer7"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:background="@drawable/help_question_tv_shape"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/helpQuestionTv8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:fontFamily="@font/poppins_regular_en"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:lineSpacingExtra="@dimen/_5sdp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:text="@string/helpQuestion8"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/arrowDownImg8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/helpAnswerTv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/help_question_tv_shape"
+                android:text="@string/helpAnswer8"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_regular_en"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

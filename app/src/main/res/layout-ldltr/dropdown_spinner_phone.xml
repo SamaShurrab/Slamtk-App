@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/White_Smoke"
+    android:id="@+id/textView_first_term_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="056"
+    android:fontFamily="@font/poppins_medium_en"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_13ssp">
+
+</TextView>

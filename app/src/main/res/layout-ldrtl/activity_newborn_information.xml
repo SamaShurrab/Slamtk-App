@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".Newborn_InformationActivity">
+
+        <LinearLayout
+            android:id="@+id/newBornInformation_alert"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:srcCompat="@drawable/newborninformation" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:textSize="@dimen/_13ssp"
+                android:text="@string/newborninformation"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:background="@drawable/edit_text_box"
+                android:padding="@dimen/_5sdp"
+                android:textAlignment="center"
+                android:layout_marginStart="@dimen/_13sdp"
+                android:layout_marginEnd="@dimen/_13sdp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:background="@drawable/strokearrow">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@drawable/arrowcircle">
+                    <ImageView
+                        android:id="@+id/move"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrowleft" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/newBornInformation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_account"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:contentDescription="@string/account"
+                    android:layout_weight="1.3"
+                    android:src="@drawable/acount_information" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/almarai_bold_ar"
+                        android:text="@string/hello"
+                        android:textColor="@color/Dim_Gray"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <TextView
+                        android:id="@+id/textView_userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textDirection="rtl"
+                        android:fontFamily="@font/almarai_bold_ar"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/newborn_info_tv"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/newborn_information"
+                android:textAlignment="center"
+                android:textColor="@color/Dark_Turquoise"
+                android:textSize="@dimen/_13ssp" />
+            <TextView
+                android:id="@+id/baby_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/baby_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+            <EditText
+                android:id="@+id/editText_baby_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/name_user"
+                android:drawablePadding="@dimen/_8sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:paddingStart="@dimen/_10sdp"
+                android:background="@drawable/edit_text_box"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textSize="@dimen/_13ssp"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/gender_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_14sdp">
+                <RadioButton
+                    android:id="@+id/female_rd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/black"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:text="@string/female"
+                    android:button="@drawable/radiobutton"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp" />
+
+                <RadioButton
+                    android:id="@+id/male_rd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/radiobutton"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/black"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:text="@string/male"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/gestational_age_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/genstational_age"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+
+            <Spinner
+                android:id="@+id/spinner_gestational_age"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dropDownVerticalOffset="@dimen/_42sdp"
+                android:contentDescription="Choose Genstational age "
+                android:background="@drawable/custom_spinner_week"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_16sdp"/>
+
+            <TextView
+                android:id="@+id/birth_date_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/birth_date"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/birth_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:background="@drawable/edit_text_box"
+                    android:drawableStart="@drawable/birth_date_age"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/delete_date_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:src="@drawable/close"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/birth_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:text="@string/birth_time"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/birth_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:background="@drawable/edit_text_box"
+                    android:drawableStart="@drawable/birth_time"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_8sdp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/delete_time_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:src="@drawable/close"
+                    android:visibility="gone" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/any_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:text="@string/any"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginEnd="@dimen/_4sdp"/>
+
+                <TextView
+                    android:id="@+id/risk_factor_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:text="@string/risk_factor"
+                    android:textSize="@dimen/_13ssp"
+                    android:drawableEnd="@drawable/exclamation_mark"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:textColor="@color/Navy_Blue" />
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/risk_factor_rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes_rd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/radiobutton"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/black"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:text="@string/yes"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp" />
+
+                <RadioButton
+                    android:id="@+id/no_rd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/black"
+                    android:fontFamily="@font/almarai_bold_ar"
+                    android:button="@drawable/radiobutton"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:text="@string/No"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style"
+                android:fontFamily="@font/almarai_bold_ar"
+                android:text="@string/submit"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

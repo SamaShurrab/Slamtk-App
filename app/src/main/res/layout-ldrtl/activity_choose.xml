@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ChooseCheckActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/_19ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:layout_marginBottom="@dimen/_56sdp"
+            android:textColor="@color/Dark_Turquoise"
+            />
+
+        <Button
+            android:id="@+id/button_new_check"
+            android:layout_marginStart="@dimen/_55sdp"
+            android:layout_marginEnd="@dimen/_55sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginBottom="@dimen/_32sdp"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:text="@string/new_check"
+            android:background="@drawable/choose_shape"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/button_previous_examinations"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_55sdp"
+            android:layout_marginEnd="@dimen/_55sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/almarai_bold_ar"
+            android:text="@string/previous_examinations_btn"
+            android:background="@drawable/choose_shape"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

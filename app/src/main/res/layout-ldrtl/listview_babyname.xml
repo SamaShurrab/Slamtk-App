@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:background="@drawable/help_question_tv_shape"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/baby_name_Tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:fontFamily="@font/almarai_regular_ar"
+            android:gravity="right|center"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="اسم الطقل"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/arrowImg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/arrow_left" />
+    </LinearLayout>
+</LinearLayout>
+
